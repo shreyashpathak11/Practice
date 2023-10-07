@@ -24,7 +24,7 @@ public class TenArraysSum {
 		}
 
 		System.out.println(sum);
-
+		System.out.println("Yes");
 	}
 
 }
