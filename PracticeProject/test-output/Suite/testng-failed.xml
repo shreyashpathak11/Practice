@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="javaFeature.StringCheck">
+        <methods>
+          <include name="sc"/>
+        </methods>
+      </class> <!-- javaFeature.StringCheck -->
+      <class name="javaFeature.Encapsulation">
+        <methods>
+          <include name="ab"/>
+        </methods>
+      </class> <!-- javaFeature.Encapsulation -->
+      <class name="seleniumPractice.BrokenLinks">
+        <methods>
+          <include name="brokenLinks"/>
+        </methods>
+      </class> <!-- seleniumPractice.BrokenLinks -->
+      <class name="testngPractice.TestNgParameter">
+        <methods>
+          <include name="parameterss"/>
+        </methods>
+      </class> <!-- testngPractice.TestNgParameter -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
