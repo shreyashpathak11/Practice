@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-05T22:53:45 IST" name="Default suite" finished-at="2023-10-05T22:53:57 IST" duration-ms="12358">
+  <suite started-at="2023-10-17T23:49:05 IST" name="Default suite" finished-at="2023-10-17T23:49:05 IST" duration-ms="36">
     <groups>
     </groups>
-    <test started-at="2023-10-05T22:53:45 IST" name="Default test" finished-at="2023-10-05T22:53:57 IST" duration-ms="12358">
-      <class name="arrayss.TenArraysSum">
-        <test-method signature="arrays()[pri:0, instance:arrayss.TenArraysSum@1a18644]" started-at="2023-10-05T22:53:45 IST" name="arrays" finished-at="2023-10-05T22:53:57 IST" duration-ms="12313" status="PASS">
+    <test started-at="2023-10-17T23:49:05 IST" name="Default test" finished-at="2023-10-17T23:49:05 IST" duration-ms="36">
+      <class name="LoopsPattern.RightTriangle">
+        <test-method signature="rtriangle()[pri:0, instance:LoopsPattern.RightTriangle@1a18644]" started-at="2023-10-17T23:49:05 IST" name="rtriangle" finished-at="2023-10-17T23:49:05 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- arrays -->
-      </class> <!-- arrayss.TenArraysSum -->
+        </test-method> <!-- rtriangle -->
+      </class> <!-- LoopsPattern.RightTriangle -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
