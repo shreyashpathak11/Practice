@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="stringPractice.Stringss">
+      <class name="jsonPractice.JSonPractice">
         <methods>
-          <include name="substrings1"/>
+          <include name="pract"/>
         </methods>
-      </class> <!-- stringPractice.Stringss -->
+      </class> <!-- jsonPractice.JSonPractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
