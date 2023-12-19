@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="jsonPractice.JSonPractice">
+      <class name="seleniumPractice.ExceptionPractice">
         <methods>
-          <include name="pract"/>
+          <include name="NoSuchFrameException"/>
         </methods>
-      </class> <!-- jsonPractice.JSonPractice -->
+      </class> <!-- seleniumPractice.ExceptionPractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>10/4/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Sep 16 01:06:54 IST 2023</td>
+<td>Started on:</td><td>Sun Nov 19 14:42:52 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>55 seconds (55459 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (60 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,191 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testngPractice.TestNgParameter.parameterss()'><b>parameterss</b><br>Test class: testngPractice.TestNgParameter</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;a&apos; is required by @Test on method parameterss but has not been marked @Optional or defined
-in D:\Java\JavaProjects\src\main\test\testng.xml
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace572137576", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace572137576'><pre>org.testng.TestNGException: 
-Parameter &apos;a&apos; is required by @Test on method parameterss but has not been marked @Optional or defined
-in D:\Java\JavaProjects\src\main\test\testng.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:270)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>testngPractice.TestNgParameter@6c1a5b54</td></tr>
-<tr>
-<td title='seleniumPractice.BrokenLinks.brokenLinks()'><b>brokenLinks</b><br>Test class: seleniumPractice.BrokenLinks</td>
-<td><div><pre>java.net.MalformedURLException: Cannot invoke &quot;String.length()&quot; because &quot;spec&quot; is null
-	at java.base/java.net.URL.&lt;init&gt;(URL.java:708)
-	at java.base/java.net.URL.&lt;init&gt;(URL.java:569)
-	at java.base/java.net.URL.&lt;init&gt;(URL.java:516)
-	at seleniumPractice.BrokenLinks.brokenLinks(BrokenLinks.java:33)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.length()&quot; because &quot;spec&quot; is null
-	at java.base/java.net.URL.&lt;init&gt;(URL.java:614)
-	... 31 more
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1340493091", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1340493091'><pre>java.net.MalformedURLException: Cannot invoke &quot;String.length()&quot; because &quot;spec&quot; is null
-	at java.base/java.net.URL.&lt;init&gt;(URL.java:708)
-	at java.base/java.net.URL.&lt;init&gt;(URL.java:569)
-	at java.base/java.net.URL.&lt;init&gt;(URL.java:516)
-	at seleniumPractice.BrokenLinks.brokenLinks(BrokenLinks.java:33)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.length()&quot; because &quot;spec&quot; is null
-	at java.base/java.net.URL.&lt;init&gt;(URL.java:614)
-	... 31 more
-</pre></div></td>
-<td>33</td>
-<td>seleniumPractice.BrokenLinks@66f57048</td></tr>
-<tr>
-<td title='javaFeature.StringCheck.sc()'><b>sc</b><br>Test class: javaFeature.StringCheck</td>
-<td><div><pre>java.lang.NumberFormatException: For input string: &quot;12345678900987654321&quot;
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:668)
-	at java.base/java.lang.Integer.parseInt(Integer.java:786)
-	at javaFeature.StringCheck.sc(StringCheck.java:29)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1662824745", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1662824745'><pre>java.lang.NumberFormatException: For input string: &quot;12345678900987654321&quot;
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:668)
-	at java.base/java.lang.Integer.parseInt(Integer.java:786)
-	at javaFeature.StringCheck.sc(StringCheck.java:29)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>javaFeature.StringCheck@6bd61f98</td></tr>
-<tr>
-<td title='javaFeature.Encapsulation.ab()'><b>ab</b><br>Test class: javaFeature.Encapsulation</td>
-<td><div><pre>java.lang.Exception: Please Enter Greater Than 0
-	at javaFeature.Abc.setA(Encapsulation.java:30)
-	at javaFeature.Encapsulation.ab(Encapsulation.java:54)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1016881733", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1016881733'><pre>java.lang.Exception: Please Enter Greater Than 0
-	at javaFeature.Abc.setA(Encapsulation.java:30)
-	at javaFeature.Encapsulation.ab(Encapsulation.java:54)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>javaFeature.Encapsulation@59505b48</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -260,55 +75,10 @@ Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.length()&q
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='base.Frames.am()'><b>am</b><br>Test class: base.Frames</td>
-<td></td>
-<td>4</td>
-<td>base.Frames@60099951</td></tr>
-<tr>
-<td title='javaFeature.DataTypes.dt()'><b>dt</b><br>Test class: javaFeature.DataTypes</td>
+<td title='testngPractice.TPS.ab()'><b>ab</b><br>Test class: testngPractice.TPS<br>Parameters: RajuTa, GajuTa</td>
 <td></td>
 <td>0</td>
-<td>javaFeature.DataTypes@2d710f1a</td></tr>
-<tr>
-<td title='base.RegularExp.regex1()'><b>regex1</b><br>Test class: base.RegularExp</td>
-<td></td>
-<td>0</td>
-<td>base.RegularExp@20140db9</td></tr>
-<tr>
-<td title='base.ControlClick.am()'><b>am</b><br>Test class: base.ControlClick</td>
-<td></td>
-<td>16</td>
-<td>base.ControlClick@1c7696c6</td></tr>
-<tr>
-<td title='javaFeature.WhileLoop.wl()'><b>wl</b><br>Test class: javaFeature.WhileLoop</td>
-<td></td>
-<td>0</td>
-<td>javaFeature.WhileLoop@506ae4d4</td></tr>
-<tr>
-<td title='javaFeature.DoWhileLoop.dwlll()'><b>dwlll</b><br>Test class: javaFeature.DoWhileLoop</td>
-<td></td>
-<td>0</td>
-<td>javaFeature.DoWhileLoop@29215f06</td></tr>
-<tr>
-<td title='testngPractice.TestNGAnnotaion.a5()'><b>a5</b><br>Test class: testngPractice.TestNGAnnotaion</td>
-<td></td>
-<td>0</td>
-<td>testngPractice.TestNGAnnotaion@6574a52c</td></tr>
-<tr>
-<td title='javaFeature.Inheritance.c()'><b>c</b><br>Test class: javaFeature.Inheritance</td>
-<td></td>
-<td>0</td>
-<td>javaFeature.Inheritance@4efac082</td></tr>
-<tr>
-<td title='javaFeature.SwitchCaseExcel.ex()'><b>ex</b><br>Test class: javaFeature.SwitchCaseExcel</td>
-<td></td>
-<td>0</td>
-<td>javaFeature.SwitchCaseExcel@b9b00e0</td></tr>
-<tr>
-<td title='javaFeature.Constructor.c1()'><b>c1</b><br>Test class: javaFeature.Constructor</td>
-<td></td>
-<td>0</td>
-<td>javaFeature.Constructor@d9345cd</td></tr>
+<td>testngPractice.TPS@543588e6</td></tr>
 </table><p>
 </body>
 </html>
